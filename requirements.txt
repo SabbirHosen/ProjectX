@@ -1,0 +1,17 @@
+alembic==1.7.5
+asgiref==3.4.1
+backports.zoneinfo==0.2.1
+banal==1.0.6
+dataset==1.5.1
+Django==3.2.6
+Pillow==8.2.0
+greenlet==1.1.2
+importlib-metadata==4.8.2
+importlib-resources==5.4.0
+Mako==1.1.6
+MarkupSafe==2.0.1
+six==1.16.0
+SQLAlchemy==1.4.28
+sqlparse==0.4.2
+tablib==3.1.0
+zipp==3.6.0

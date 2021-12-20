@@ -1,0 +1,92 @@
+body{
+  padding: 0;
+  margin: 0;
+    
+}
+.reg-outter{
+    width: 100%;
+    height: 100vh;
+ 
+    position: relative;
+}
+.reg-inner{
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 25%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    border-radius: 25px;
+    margin: 0 5px;
+   
+    
+}
+.reg-img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px 30px 20px;
+}
+.reg-left{
+    padding: 15px 0;
+  
+}
+.reg-right{
+    background-color: #285CAB;
+    border-radius: 0 25px 25px 0;
+    padding: 15px 0;
+    
+}
+.form-design{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.reg-right input{
+    
+    background-color: white;
+    color: black;
+    width: 80%;
+    border: 2px solid white;
+    border-radius: 25px;
+    line-height: 32px;
+    font-size: 18px;
+    text-align: center;
+    margin:0 auto 20px auto ;
+    font-weight: 600;
+
+    
+    
+}
+
+#registration-button{
+    width: 82%;
+    border: 1px solid rgb(206, 167, 167);
+    
+}
+#registration-button:hover{
+    border: 1px solid white;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .reg-main{
+        overflow-x: hidden;
+    }
+    .reg-inner{
+      top: 3%;
+      left: 3%;
+      right: 3%;
+      display:block;
+      
+    }
+   
+    .reg-right{
+        background-color: #285CAB;
+        border-radius: 0 0  25px 25px ;
+    }
+  }
