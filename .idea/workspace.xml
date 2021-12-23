@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60eb636e-3b67-4ec4-ba27-b5870362d57d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ProjectX.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Student_Information_System.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+    <list default="true" id="a7d44f5b-cd91-4bb7-a2bf-a9e1545860ed" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Student_Information_System/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Information_System/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student_Information_System/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Information_System/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +15,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="22fsyu8WlvT8aEP8uqkMAwop4cl" />
+  <component name="ProjectId" id="22hIWeRhyJ13afHU2OJUdf0BKRQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,9 +24,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
     <configuration name="ProjectX" type="Python.DjangoServer" factoryName="Django server">
@@ -63,14 +54,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="60eb636e-3b67-4ec4-ba27-b5870362d57d" name="Changes" comment="" />
-      <created>1640240236771</created>
+      <changelist id="a7d44f5b-cd91-4bb7-a2bf-a9e1545860ed" name="Changes" comment="" />
+      <created>1640283425089</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1640240236771</updated>
-      <workItem from="1640240280820" duration="1235000" />
-      <workItem from="1640263266642" duration="604000" />
-      <workItem from="1640282097061" duration="317000" />
+      <updated>1640283425089</updated>
+      <workItem from="1640283477723" duration="328000" />
     </task>
     <servers />
   </component>
