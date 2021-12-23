@@ -4,16 +4,16 @@ from django.db import models
 
 # Create your models here.
 class StudentInformation(models.Model):
-    registration_ID = models.CharField(max_length=8, primary_key=True)
+    registration_ID = models.CharField(max_length=10, primary_key=True)
     certificate_name = models.CharField(max_length=50, null=False)
     nickname = models.CharField(max_length=50)
     batch = models.IntegerField()
     phone_Number = models.CharField(max_length=11)
     email = models.EmailField(max_length=100)
-    gender = models.CharField(max_length=10)
-    blood_Group = models.CharField(max_length=3)
-    present_Address = models.CharField(max_length=70)
-    permanent_Address = models.CharField(max_length=70)
+    gender = models.CharField(max_length=10, null=True)
+    blood_Group = models.CharField(max_length=5, null=True)
+    present_Address = models.CharField(max_length=170, null=True)
+    permanent_Address = models.CharField(max_length=170, null=True)
     cr = models.CharField(max_length=6)
 
 
