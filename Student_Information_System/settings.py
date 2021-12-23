@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-(lm5d1w74$tr%-fzuk4i8768&1tgve07o*fvcrk!(w$s#+(__e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -83,8 +83,16 @@ WSGI_APPLICATION = 'Student_Information_System.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'OPTIONS': {
+                'init_command': 'SET default_storage_engine=INNODB',
+                'sql_mode': 'traditional',
+            },
+        'NAME': 'projectX',
+        'HOST': 'localhost',
+        'PORT': '3306',
+        'USER': 'root',
+        'PASSWORD': '',
     }
 }
 
