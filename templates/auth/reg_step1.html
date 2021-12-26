@@ -26,8 +26,9 @@
                 <h2
                     style=" color:white; font-weight: 800; text-align:center; padding: 1rem 5px 2rem 5px; font-size: 30px;">
                     SIS CSE Registration</h2>
-                <form class='form-design'>
-                    <input type='text' placeholder='Enter your University ID' />
+                <form class='form-design' method="POST" action="{% url 'registration' %}">
+                    {% csrf_token %}
+                    <input type='text' name="reg_id" placeholder='Enter your University ID' />
                     <input type='submit' id='registration-button' style="background-color:#BD1B88;
                         border-radius:25px; padding:3px 0; margin-bottom:25px; font-weight: 600; color:white" />
                 </form>

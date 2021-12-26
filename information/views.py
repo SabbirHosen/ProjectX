@@ -1,6 +1,6 @@
 from tablib import Dataset
 from django.shortcuts import render
-from information.models import StudentInformation
+from information.models import StudentInformation, ExtendedInformation
 import pandas as pd
 
 
@@ -10,11 +10,8 @@ def upload(request):
         new_res = request.FILES['myfile']
         imported_data = pd.read_csv(new_res)
         imported_data['Registration ID'] = imported_data['Registration ID'].map(str)
-
-        # imported_data = dataset.load(new_res.read(), format='xlsx')
-        print(imported_data)
         for x in imported_data.index:
-            if imported_data['Nickname'][x] is None:
+            if pd.isna(imported_data['Nickname'][x]):
                 var = str(imported_data['Full Name'][x]).split()
                 ss = var[-1]
             else:
@@ -31,4 +28,8 @@ def upload(request):
                                        batch=imported_data['Batch'][x]
                                        )
             value.save()
+            extend_value = ExtendedInformation(
+                registration_ID=value
+            )
+            extend_value.save()
     return render(request, template_name='information/upload.html')

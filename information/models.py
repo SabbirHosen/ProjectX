@@ -19,11 +19,15 @@ class StudentInformation(models.Model):
 
 class ExtendedInformation(models.Model):
     registration_ID = models.ForeignKey(StudentInformation, on_delete=models.CASCADE)
-    image = models.ImageField(upload_to='profile/', default='pro.jpg')
-    personal_email = models.EmailField(max_length=100)
-    facebook = models.CharField(max_length=100)
-    github = models.CharField(max_length=100)
-    linkedin = models.CharField(max_length=100)
+    image = models.ImageField(upload_to='profile/', default='pro.jpg', null=True)
+    personal_email = models.EmailField(max_length=100, blank=True, null=True)
+    facebook = models.CharField(max_length=100, blank=True, null=True)
+    github = models.CharField(max_length=100, blank=True, null=True)
+    linkedin = models.CharField(max_length=100, blank=True, null=True)
+    company = models.CharField(max_length=100, blank=True, null=True)
+    position = models.CharField(max_length=100, blank=True, null=True)
+    email_verify = models.BooleanField(default=False)
+
 
 
 

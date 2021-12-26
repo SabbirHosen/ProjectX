@@ -2,15 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7d44f5b-cd91-4bb7-a2bf-a9e1545860ed" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/static/css/profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/image/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/information/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student_Information_System/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student_Information_System/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/information/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/information/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/information/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/information/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/information/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system_auth/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/system_auth/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system_auth/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/system_auth/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system_auth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/system_auth/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system_auth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/system_auth/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth/reg_step1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/reg_step1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth/reg_step2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/reg_step2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,9 +40,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/image" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/image" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="ProjectX" type="Python.DjangoServer" factoryName="Django server">
@@ -59,11 +84,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640283425089</updated>
-      <workItem from="1640283477723" duration="5428000" />
+      <workItem from="1640283477723" duration="19873000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
