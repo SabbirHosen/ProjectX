@@ -30,9 +30,10 @@
                 <h4
                     style=" color:white; font-weight: 400; text-align:center; padding: 0 5px 2rem 5px; font-size: 20px;">
                     Please Login</h4>
-                <form class='form-design'>
-                    <input type='text' placeholder='Your University Id' />
-                    <input type='password' placeholder='Your Password' />
+                <form class='form-design' action="{% url 'login' %}" method="POST">
+                    {% csrf_token %}
+                    <input type='text' name="username" placeholder='Your University Id' />
+                    <input type='password' name="password" placeholder='Your Password' />
 
 
                     <input type='submit' value="Log in" id='registration-button' style="background-color:#BD1B88;

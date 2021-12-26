@@ -92,7 +92,7 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT': '3306',
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': 'Emon@#123',
     }
 }
 
@@ -150,5 +150,5 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'snhclub@uap-bd.edu'
-EMAIL_HOST_PASSWORD = 'xeiczltdrzaehnif'
+EMAIL_HOST_USER = '18201071@uap-bd.edu'
+EMAIL_HOST_PASSWORD = 'wzggwyavtwjxvjmf'
